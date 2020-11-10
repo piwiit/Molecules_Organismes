@@ -4,9 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./bootstrap.css" />
+    <script
+      src="https://kit.fontawesome.com/25d75193a7.js"
+      crossorigin="anonymous"
+    ></script>
     <title>form</title>
   </head>
   <body>
+    <nav
+      class="navbar navbar-darck bg-light mb-4 d-flex justify-content-around"
+    >
+      <i class="far fa-star"></i>
+      <a class="navbar-brand" href="./index.html">retour index</a>
+      <i class="far fa-star"></i>
+    </nav>
     <div class="container my-3">
       <form>
         <fieldset>
@@ -91,15 +102,24 @@
           </div>
           <div class="form-check">
             <label class="form-check-label mb-2">
-              <input class="form-check-input" type="checkbox" value="" checked="">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                checked=""
+              />
               remember me
             </label>
           </div>
-          <div class="form-group"><button type="button" class="btn btn-link">S'inscrire</button><button type="button" class="btn btn-link">Mot de passe oublié</button></div>
+          <div class="form-group">
+            <button type="button" class="btn btn-link">S'inscrire</button
+            ><button type="button" class="btn btn-link">
+              Mot de passe oublié
+            </button>
+          </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </fieldset>
       </form>
-    </div>
     </div>
     <div class="dropdown-divider my-1"></div>
     <div class="container my-5">
@@ -116,11 +136,10 @@
               placeholder="Enter email"
             />
           </div>
-         
+
           <button type="submit" class="btn btn-primary">Submit</button>
         </fieldset>
       </form>
-    </div>
     </div>
     <div class="dropdown-divider my-1"></div>
     <div class="container my-5">
@@ -137,7 +156,9 @@
             />
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">répéter ce nouveau mot de passe</label>
+            <label for="exampleInputPassword1"
+              >répéter ce nouveau mot de passe</label
+            >
             <input
               type="password"
               class="form-control"
@@ -149,7 +170,7 @@
         </fieldset>
       </form>
     </div>
-    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
