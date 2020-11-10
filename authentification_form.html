@@ -4,9 +4,152 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./bootstrap.css" />
-    <title>banner</title>
+    <title>form</title>
   </head>
   <body>
+    <div class="container my-3">
+      <form>
+        <fieldset>
+          <legend>S'inscrire</legend>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Votre prénom</label>
+            <input
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="prénom"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Votre nom</label>
+            <input
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="nom"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Votre Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleTextarea">Description</label>
+            <textarea
+              class="form-control"
+              id="exampleTextarea"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="dropdown-divider my-1"></div>
+    <div class="container my-5">
+      <form>
+        <fieldset>
+          <legend>Se connecter</legend>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Votre Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-check">
+            <label class="form-check-label mb-2">
+              <input class="form-check-input" type="checkbox" value="" checked="">
+              remember me
+            </label>
+          </div>
+          <div class="form-group"><button type="button" class="btn btn-link">S'inscrire</button><button type="button" class="btn btn-link">Mot de passe oublié</button></div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    </div>
+    <div class="dropdown-divider my-1"></div>
+    <div class="container my-5">
+      <form>
+        <fieldset>
+          <legend>Mot de passe oublié</legend>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Votre Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+          </div>
+         
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    </div>
+    <div class="dropdown-divider my-1"></div>
+    <div class="container my-5">
+      <form>
+        <fieldset>
+          <legend>Changer de mot de passe</legend>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Nouveau mot de passe</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">répéter ce nouveau mot de passe</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
